@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px; /* Increased border-radius for a smoother look */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box-shadow for a more pronounced effect */
+  background-image: url('C:\Qspider\Web Tech\Hotel\'s_pic\0_0Dk9Foiam83oGGrl.jpg'); /* Fixed the path and added a background image */
+  background-size: cover; /* Ensure the background image covers the container */
+  color: #fff; /* Set text color to white for better contrast */
+}
+h1{
+  color: red;
+}
+#quote {
+  font-size: 24px; /* Slightly increased font size for the quote */
+  margin-bottom: 20px;
+  color: #ffd700; /* Set a gold color for the quote text */
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#startBtn {
+  background-color: #4caf50; /* Green color for the Start button */
+  color: #fff;
+}
+
+#submitBtn {
+  background-color: #007bff; /* Blue color for the Submit button */
+  color: #fff;
+}
+
+textarea {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-top: 10px;
+}
+
+#feedback {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #333;
+}
