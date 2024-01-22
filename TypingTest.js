@@ -20,7 +20,8 @@ function startTypingTest() {
   const quotes = [
     'The quick brown fox jumps over the lazy dog',
     'Practice makes perfect',
-    'Abhay is a very good person in programming ',
+    'Abhay is a very good Person',
+    'Jai Mahakal , Jai Shree Ram'
     // Add more quotes as needed
   ];
   const randomIndex = Math.floor(Math.random() * quotes.length);
