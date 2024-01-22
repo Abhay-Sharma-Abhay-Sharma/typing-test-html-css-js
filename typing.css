@@ -12,19 +12,21 @@ body {
 .container {
   text-align: center;
   padding: 20px;
-  border-radius: 10px; /* Increased border-radius for a smoother look */
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Increased box-shadow for a more pronounced effect */
-  background-image: url('C:\Qspider\Web Tech\Hotel\'s_pic\0_0Dk9Foiam83oGGrl.jpg'); /* Fixed the path and added a background image */
-  background-size: cover; /* Ensure the background image covers the container */
-  color: #fff; /* Set text color to white for better contrast */
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  background-image: url('C:\Qspider\Web Tech\Hotel\'s_pic\0_0Dk9Foiam83oGGrl.jpg');
+  background-size: cover;
+  color: #fff;
 }
-h1{
+
+h1 {
   color: red;
 }
+
 #quote {
-  font-size: 24px; /* Slightly increased font size for the quote */
+  font-size: 24px;
   margin-bottom: 20px;
-  color: #ffd700; /* Set a gold color for the quote text */
+  color: #ffd700;
 }
 
 button {
@@ -36,12 +38,12 @@ button {
 }
 
 #startBtn {
-  background-color: #4caf50; /* Green color for the Start button */
+  background-color: #4caf50;
   color: #fff;
 }
 
 #submitBtn {
-  background-color: #007bff; /* Blue color for the Submit button */
+  background-color: #007bff;
   color: #fff;
 }
 
@@ -57,4 +59,42 @@ textarea {
   margin-top: 10px;
   font-weight: bold;
   color: #333;
+}
+
+/* Media Query for Small Screens */
+@media only screen and (max-width: 767px) {
+  .container {
+    padding: 10px; /* Adjust padding for smaller screens */
+  }
+}
+
+/* Media Query for Larger Screens */
+/* Media Query for Larger Screens */
+@media only screen and (min-width: 768px) {
+  .container {
+    padding: 30px; /* Adjust padding for larger screens */
+  }
+
+  h1 {
+    font-size: 2em; /* Increase font size for larger screens */
+  }
+
+  #quote {
+    font-size: 28px; /* Adjust font size for larger screens */
+    margin-bottom: 30px;
+  }
+
+  button {
+    font-size: 18px; /* Increase button font size for larger screens */
+  }
+
+  textarea {
+    font-size: 18px; /* Adjust font size for textarea on larger screens */
+  }
+
+  #feedback {
+    margin-top: 20px; /* Adjust margin for feedback on larger screens */
+  }
+
+  /* Add any other additional styles as needed for larger screens */
 }
